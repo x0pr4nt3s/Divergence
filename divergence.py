@@ -21,6 +21,8 @@ general_words = ["lima","santiago","bogota","enero","febrero","marzo","abril","m
 
 
 
+
+
 ### Leyendo archivo
 def lectura_special_words(archivo_special_words):
     # Obtener el nombre del archivo de los argumentos de línea de comandos
@@ -198,7 +200,7 @@ def main():
     descripcion_parser="Procesa argumentos -r y -sw"
 
 
-    parser = MyParser(description=descripcion_parser)
+    parser = argparse.ArgumentParser(description=descripcion_parser)
     
 
 
