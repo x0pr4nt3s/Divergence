@@ -4,7 +4,7 @@ Divergence es una herramienta para generar diccionarios en base a una lista de p
 
 EJEMPLO DE COMANDO:
 ```
-python3 divergent.py -r rules.txt -sw palabras.txt
+python3 divergence.py -r rules.txt -sw palabras.txt
 ```
 En este ejemplo "rules.txt" es el archivo donde iran las reglas
 y "palabras.txt" es el archivo con las palabras especiales.
